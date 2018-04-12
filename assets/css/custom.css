@@ -1,0 +1,66 @@
+@media only screen and (max-width: 812px){
+  html,
+  body,
+  .page {
+    height: inherit;
+  }
+  .site-main{
+    position: static;
+    width: inherit;
+    height: inherit;
+  }
+  .pt-page {
+    position: static;
+    display: none;
+    padding-top: 50px;
+  }
+  .pt-page-current{
+    display: block;
+  }
+  .pt-page{
+    width: 100vw;
+  }
+  .pt-page .section-inner {
+      padding: 0;
+      width: inherit;
+  }
+  .home-page-block {
+    width: inherit;
+    height: 100vh;
+  }
+  .home-page-block h2{
+    padding-top: 25vh;
+  }
+  .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .block-title{
+    padding: 0 10px;
+  }
+  .page-ajax-loaded{
+    padding-top: 50px;
+  }
+  html.showDetail{
+    overflow: hidden;
+  }
+}
+.blog .subpage-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 195px;
+}
+.blog .subpage-block p {
+  margin-bottom: 0;
+}
+.blog .subpage-block:hover {
+    cursor: pointer;
+    background: #f8f8f8;
+}
+.ajax-page-nav > div.nav-item a {
+    cursor: pointer;
+}
+
+.pt-page.stop-skill .skill-percentage {
+  width: 0;
+}
