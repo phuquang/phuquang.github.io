@@ -3,6 +3,7 @@
 * Author: lmpixels
 * Author URL: http://themeforest.net/user/lmpixels
 * Version: 1.0
+* Color #FF6F61
 */
 
 /* =============================================================================
@@ -34,7 +35,7 @@
 @import url('pe-icon-7-stroke.css'); /* Full icons list: http://themes-pixeden.com/font-demos/7-stroke/index.html */
 
 /* Font awesome icons font */
-@import url('font-awesome.min.css'); /* Full icons list: http://fontawesome.io/icons/ */
+@import url('fontawesome.min.css'); /* Full icons list: http://fontawesome.io/icons/ */
 
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Oxygen:300,400,700");
@@ -57,7 +58,7 @@ body {
 }
 
 a {
-  color: #fd9129;
+  color: #FF6F61;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -68,7 +69,7 @@ a {
 }
 
 a:hover {
-  color: #e38024;
+  color: #e56845;
   text-decoration: none;
   outline: none;
 }
@@ -130,7 +131,7 @@ input[type=submit], input[type=button], button, a.button {
   line-height: 1.2;
   border: 0;
   outline: 0;
-  border: 2px solid #fd9129;
+  border: 2px solid #FF6F61;
   color: #222;
   text-shadow: none;
   background: none;
@@ -143,7 +144,7 @@ input[type=submit], input[type=button], button, a.button {
 
 input[type=submit]:hover, input[type=submit]:focus, input[type=button]:focus, button:hover, button:focus, a.button:hover, a.button:focus {
   color: #fff;
-  background-color: #fd9129;
+  background-color: #FF6F61;
 }
 /* /Buttons */
 
@@ -153,14 +154,14 @@ input[type=submit]:hover, input[type=submit]:focus, input[type=button]:focus, bu
 }
 
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background-color: #fd9129;
+  background-color: #FF6F61;
   opacity: 1;
   border-radius: 0;
 }
 
 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
 .mCSB_scrollTools .mCSB_dragger:focus .mCSB_dragger_bar {
-  background-color: #fd9129;
+  background-color: #FF6F61;
   opacity: 1;
 }
 
@@ -212,7 +213,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #fd9129;
+  background: #FF6F61;
   height: 2px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -240,7 +241,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-control:focus + .form-control-border + .form-control-icon {
-  color: #fd9129;
+  color: #FF6F61;
 }
 
 /* Placeholders */
@@ -301,8 +302,8 @@ textarea.form-control, textarea.form-control:focus {
   background: transparent;
   width: 40px;
   height: 40px;
-  border-top: 2px solid #fd9129;
-  border-left: 2px solid #fd9129;
+  border-top: 2px solid #FF6F61;
+  border-left: 2px solid #FF6F61;
   left: 0;
   top: 0;
   z-index: 0;
@@ -314,8 +315,8 @@ textarea.form-control, textarea.form-control:focus {
   background: transparent;
   width: 40px;
   height: 40px;
-  border-bottom: 2px solid #fd9129;
-  border-right: 2px solid #fd9129;
+  border-bottom: 2px solid #FF6F61;
+  border-right: 2px solid #FF6F61;
   right: 0;
   bottom: 0;
   z-index: 0;
@@ -327,8 +328,8 @@ textarea.form-control, textarea.form-control:focus {
   background: transparent;
   width: 60px;
   height: 60px;
-  border-bottom: 2px solid #fd9129;
-  border-right: 2px solid #fd9129;
+  border-bottom: 2px solid #FF6F61;
+  border-right: 2px solid #FF6F61;
   right: 0;
   bottom: 0;
   z-index: 0;
@@ -340,8 +341,8 @@ textarea.form-control, textarea.form-control:focus {
   background: transparent;
   width: 110px;
   height: 110px;
-  border-top: 3px solid #fd9129;
-  border-left: 3px solid #fd9129;
+  border-top: 3px solid #FF6F61;
+  border-left: 3px solid #FF6F61;
   left: 20px;
   top: 10px;
   z-index: 0;
@@ -381,7 +382,7 @@ textarea.form-control, textarea.form-control:focus {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   border-radius: 100%;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
@@ -577,7 +578,7 @@ textarea.form-control, textarea.form-control:focus {
   position: fixed;
   width: 150px;
   height: 100%;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   overflow: auto;
   -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.2);
@@ -653,7 +654,7 @@ ul.social-links li a {
 
 ul.social-links li a:hover {
   color: #fff;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   border-color: transparent;
 }
 
@@ -680,7 +681,7 @@ ul.social-links li:last-child a {
 }
 
 .menu-toggle i {
-  color: #fd9129;
+  color: #FF6F61;
   font-size: 21px;
   line-height: 50px;
 }
@@ -753,7 +754,7 @@ ul.social-links li:last-child a {
   width: 0;
   height: 100%;
   margin: 0 auto;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -851,7 +852,7 @@ ul.social-links li:last-child a {
       right: 0;
       bottom: 0;
       margin: 0 auto;
-      background-color: #fd9129;
+      background-color: #FF6F61;
       height: 2px;
       -webkit-transition: width 0.3s ease-in-out;
       -moz-transition: width 0.3s ease-in-out;
@@ -862,14 +863,14 @@ ul.social-links li:last-child a {
 
   .layout-menu-top .site-main-menu li a:hover:after,
   .layout-menu-bottom .site-main-menu li a:hover:after {
-    background-color: #fd9129;
+    background-color: #FF6F61;
     width: 100%;
     height: 2px;
   }
 
   .layout-menu-top .site-main-menu li.active a:after,
   .layout-menu-bottom .site-main-menu li.active a:after {
-    background-color: #fd9129;
+    background-color: #FF6F61;
     width: 100%;
     height: 2px;
   }
@@ -922,7 +923,7 @@ ul.social-links li:last-child a {
   position: relative;
   margin: 0;
   color: #fff;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   padding: 0 10px;
   font-size: 14px;
   font-weight: 200;
@@ -945,7 +946,7 @@ ul.social-links li:last-child a {
   height: 100%;
   left: -10px;
   bottom: 0;
-  background-color: #fd9129;
+  background-color: #FF6F61;
 }
 
 
@@ -980,7 +981,7 @@ ul.social-links li:last-child a {
 }
 
 .home-page-block h2 {
-  color: #fd9129;
+  color: #FF6F61;
   text-align: center;
   font-size: 70px;
   margin: 0;
@@ -1035,7 +1036,7 @@ ul.social-links li:last-child a {
     width: 100%;
     height: 2px;
     margin-top: -3px;
-    background-color: #fd9129;
+    background-color: #FF6F61;
 }
 
 .info-list li .value {
@@ -1057,7 +1058,7 @@ ul.social-links li:last-child a {
 
 .service-icon {
   font-size: 60px;
-  color: #fd9129;
+  color: #FF6F61;
   margin: 5px 0 18px;
 }
 /* /Services */
@@ -1113,7 +1114,7 @@ ul.social-links li:last-child a {
   font-weight: 300;
   display: block;
   margin: 10px 0;
-  color: #fd9129;
+  color: #FF6F61;
 }
 /* /Fun Facts */
 
@@ -1228,7 +1229,7 @@ ul.social-links li:last-child a {
   font-weight: 300;
   line-height: 1.1em;
   margin: 0 0 3px;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   padding: 5px 8px 5px 20px;
   margin-left: -20px;
 }
@@ -1243,8 +1244,8 @@ ul.social-links li:last-child a {
   height: 26px;
   width: 26px;
   text-align: center;
-  border-top: 1px solid #fd9129;
-  border-left: 1px solid #fd9129;
+  border-top: 1px solid #FF6F61;
+  border-left: 1px solid #FF6F61;
 }
 
 .event-date .event-icon i {
@@ -1290,7 +1291,7 @@ ul.social-links li:last-child a {
 }
 
 .skill-percentage {
-  background-color: #fd9129;
+  background-color: #FF6F61;
   border: 1px solid #fff;
   height: 10px;
   padding: 0;
@@ -1309,35 +1310,39 @@ ul.social-links li:last-child a {
 
 /*Skill 1*/
 .skill-percentage.skill-1 {
-  width: 88%;
+  width: 11%;
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 22%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
-  width: 60%;
+  width: 33%;
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
-  width: 95%;
+  width: 44%;
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 85%;
+  width: 55%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 72%;
+  width: 66%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
-  width: 60%;
+  width: 77%;
 }
 /*Skill 8*/
 .skill-percentage.skill-8 {
-  width: 77%;
+  width: 88%;
+}
+/*Skill 9*/
+.skill-percentage.skill-9 {
+  width: 99%;
 }
 /* Skills */
 
@@ -1384,7 +1389,7 @@ ul.social-links li:last-child a {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #fd9129;
+  background-color: #FF6F61;
   color: #fff;
 }
 
@@ -1445,7 +1450,7 @@ ul.social-links li:last-child a {
 }
 
 .portfolio-grid figure a div i {
-  color: #fd9129;
+  color: #FF6F61;
   position: absolute;
   font-size: 24px;
   bottom: 14px;
@@ -1504,7 +1509,7 @@ ul.social-links li:last-child a {
 .contact-info-block .pe-7s-icon {
   position: relative;
   font-size: 30px;
-  color: #fd9129;
+  color: #FF6F61;
 }
 /* /Contact info */
 
@@ -1538,7 +1543,7 @@ ul.social-links li:last-child a {
 .testimonials.owl-carousel .owl-nav .owl-prev:hover,
 .testimonials.owl-carousel .owl-nav .owl-next:hover {
   color: #fff;
-  background-color: #fd9129;
+  background-color: #FF6F61;
 }
 
 .testimonials.owl-carousel .owl-nav .owl-prev:before,
@@ -1707,7 +1712,7 @@ ul.social-links li:last-child a {
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  color: #fd9129;
+  color: #FF6F61;
 }
 
 .ajax-page-nav > div.nav-item a i {
@@ -1752,7 +1757,7 @@ ul.social-links li:last-child a {
 }
 
 .project-general-info .fa {
-  color: #fd9129;
+  color: #FF6F61;
   margin-right: 5px;
 }
 
@@ -1778,7 +1783,7 @@ ul.social-links li:last-child a {
 
 .share-buttons a:hover {
   color: #fff;
-  background-color: #fd9129;
+  background-color: #FF6F61;
   border-color: transparent;
 }
 
@@ -2065,7 +2070,7 @@ ul.social-links li:last-child a {
 }
 
 .template-style-dark .home-page-block h2 {
-  color: #fd9129;
+  color: #FF6F61;
 }
 
 .template-style-dark .home-page-description {
@@ -2093,7 +2098,7 @@ ul.social-links li:last-child a {
 
 .template-style-dark ul.social-links li a:hover {
     color: #fff;
-    background-color: #fd9129;
+    background-color: #FF6F61;
     border-color: transparent;
 }
 
@@ -2152,7 +2157,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .my-photo .border-block-bottom-40 {
-  border-color: #fd9129;
+  border-color: #FF6F61;
 }
 
 .header.header-color-light .my-photo img {
@@ -2160,7 +2165,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .site-title {
-  color: #fd9129;
+  color: #FF6F61;
 }
 
 .header.header-color-light .site-main-menu li a,
@@ -2171,11 +2176,11 @@ ul.social-links li:last-child a {
 
 .header.header-color-light .site-main-menu li a i,
 .header.header-color-light .site-main-menu li a:hover i {
-  color: #fd9129;
+  color: #FF6F61;
 }
 
 .header.header-color-light .site-main-menu li.active a:after {
-  background-color: #fd9129;
+  background-color: #FF6F61;
 }
 /* Header Light Color BG */
 
@@ -2185,7 +2190,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-dark .my-photo .border-block-bottom-40 {
-  border-color: #fd9129;
+  border-color: #FF6F61;
 }
 /* /Header Dark Color */
 
@@ -2196,3 +2201,13 @@ ul.social-links li:last-child a {
   background-color: #fff;
 }
 /* /Header Main Color BG */
+
+.theme-color{
+  color: #FF6F61;
+}
+.theme-background{
+  background-color: #FF6F61;
+}
+.theme-border{
+  border-color: #FF6F61;
+}
